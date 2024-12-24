@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            * {
+                margin: 0;
+                outline: none;
+                padding: 0;
+                box-sizing: border-box;
+                border: none;
+                z-index: 100;
+                font-family: arial;
+            }
+
+            html {
+                overflow: hidden;
+                font-size: 62.5%;
+            }
+
+            body {
+                background: #eee;
+            }
+
+            .home-content h1 {
+                color: dodgerblue;
+                font-size: 6rem;
+            }
+
+            .home {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 2rem;
+            }
+
+            section {
+                min-height: 100vh;
+                padding: 3rem 9% 2rem;
+            }
+
+            .home-content p {
+                font-size: 3rem;
+            }
+
+            .login {
+                display: flex;
+                flex-direction: column;
+                border: none;
+                padding: 20px;
+                width: 400px;
+                background: white;
+                text-align: center;
+                border-radius: 10px;
+                margin-right: 5rem;
+                margin-top: 6rem;
+            }
+
+            input {
+                height: 50px;
+                padding: 10px;
+                margin: 5px 0px;
+                border: 1px solid gray;
+                border-radius: 10px;
+            }
+
+            .btn1 {
+                background: dodgerblue;
+                color: white;
+                font-weight: 700;
+                height: 50px;
+                padding: 10px;
+                margin: 10px 0px;
+                border-radius: 10px;
+                font-size: 20px;
+            }
+
+            a {
+                color: dodgerblue;
+                text-decoration: none;
+                font-size: 1.5rem;
+                line-height: 2.5;
+            }
+
+            .btn2 {
+                color: white;
+                background: limegreen;
+                height: 50px;
+                padding: 10px;
+                font-weight: 700;
+                width: 200px;
+                margin-left: 7.5rem;
+                border-radius: 10px;
+                font-size: 1.7rem;
+                margin-top: 5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>facebook</h1>
+                <p>Connect with friends and the world <br>
+                    around you on Facebook.
+                </p>
+            </div>
+
+            <div class="login">
+                <input type="email" placeholder="Email or phone number">
+                <input type="password" placeholder="Password">
+                <button class="btn1">Log In</button>
+                <div class="account">
+                    <a href="">Forgot password?</a>
+                </div>
+                <button class="btn2">Create new account</button>
+            </div>
+            </div>
+            </div>
+        </section>
+    </body>
+</html>
